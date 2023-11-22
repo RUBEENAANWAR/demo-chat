@@ -60,7 +60,7 @@ const PeerConnection = () => {
           onChange={(e) => setPeerId(e.target.value)}
         />
       </label>
-      <div style={{width:'10%', display:'flex',flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+      <div style={{width:'10%', display:'flex',flexDirection:'colum', justifyContent:'center', alignItems:'center'}}>
       <button onClick={createPeer}>Create Peer</button>
       <button onClick={establishConnection}>Establish Connection</button>
       {/* <button onClick={send}>Send Message</button> */}
